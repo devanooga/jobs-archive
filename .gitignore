@@ -1,0 +1,12 @@
+src/Devanooga.Jobs.Website/node_modules/
+src/Devanooga.Jobs.Website/wwwroot/assets/
+src/Devanooga.Jobs.Website/obj/
+src/Devanooga.Jobs.Website/bin/
+src/Devanooga.Jobs/bin/
+src/Devanooga.Jobs/obj/
+src/Devanooga.Jobs.Data/obj/
+src/Devanooga.Jobs.Data/bin/
+.vs/
+*.user
+*.lock.json
+src/Devanooga.Jobs.Website/appsettings.local.json

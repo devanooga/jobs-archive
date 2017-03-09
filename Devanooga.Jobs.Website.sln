@@ -1,47 +1,36 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26114.2
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4D9CAFBD-EFF8-4C37-A97E-A81287EAACC7}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E4677AC7-343B-4D5C-A631-D79CFBE27F30}"
 	ProjectSection(SolutionItems) = preProject
-		global.json = global.json
 		Readme.md = Readme.md
 	EndProjectSection
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Devanooga.Jobs.Website", "src\Devanooga.Jobs.Website\Devanooga.Jobs.Website.xproj", "{CE235B00-353A-43FA-86E2-36E249DEB781}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Devanooga.Jobs", "Devanooga.Jobs", "{4FBAE3AE-0849-4502-A54B-43E61386F465}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Devanooga.Jobs.Data", "src\Devanooga.Jobs.Data\Devanooga.Jobs.Data.xproj", "{0A6AAA0E-4CB5-4FC9-866C-A5A8529FA217}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Devanooga.Jobs.Data", "Devanooga.Jobs.Data", "{C8F21AC1-F2EE-42BC-8B73-52A34E975055}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Devanooga.Jobs", "src\Devanooga.Jobs\Devanooga.Jobs.xproj", "{EA94D8F8-6EB7-465F-93F4-52666EABCDA5}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Devanooga.Jobs.Website", "Devanooga.Jobs.Website", "{A59A0A4F-0554-496F-ABE8-961499737082}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{CE235B00-353A-43FA-86E2-36E249DEB781}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CE235B00-353A-43FA-86E2-36E249DEB781}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CE235B00-353A-43FA-86E2-36E249DEB781}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CE235B00-353A-43FA-86E2-36E249DEB781}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0A6AAA0E-4CB5-4FC9-866C-A5A8529FA217}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0A6AAA0E-4CB5-4FC9-866C-A5A8529FA217}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0A6AAA0E-4CB5-4FC9-866C-A5A8529FA217}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0A6AAA0E-4CB5-4FC9-866C-A5A8529FA217}.Release|Any CPU.Build.0 = Release|Any CPU
-		{EA94D8F8-6EB7-465F-93F4-52666EABCDA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EA94D8F8-6EB7-465F-93F4-52666EABCDA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EA94D8F8-6EB7-465F-93F4-52666EABCDA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EA94D8F8-6EB7-465F-93F4-52666EABCDA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{CE235B00-353A-43FA-86E2-36E249DEB781} = {4D9CAFBD-EFF8-4C37-A97E-A81287EAACC7}
-		{0A6AAA0E-4CB5-4FC9-866C-A5A8529FA217} = {4D9CAFBD-EFF8-4C37-A97E-A81287EAACC7}
-		{EA94D8F8-6EB7-465F-93F4-52666EABCDA5} = {4D9CAFBD-EFF8-4C37-A97E-A81287EAACC7}
+		{4FBAE3AE-0849-4502-A54B-43E61386F465} = {4D9CAFBD-EFF8-4C37-A97E-A81287EAACC7}
+		{C8F21AC1-F2EE-42BC-8B73-52A34E975055} = {4D9CAFBD-EFF8-4C37-A97E-A81287EAACC7}
+		{A59A0A4F-0554-496F-ABE8-961499737082} = {4D9CAFBD-EFF8-4C37-A97E-A81287EAACC7}
 	EndGlobalSection
 EndGlobal
